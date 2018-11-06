@@ -1,0 +1,9 @@
+<div class="fix-container">
+  <div class="card card_alone">
+    <%= link_to tasks_path do %>
+      <i class='fas fa-times'></i>
+    <% end %>
+    <h2>type: <%=@task.title %></h2>
+    <p>Health Benefits: <%=@task.details %></p>
+    <%= link_to('Delete', delete_path(@task), method: :delete) %>
+</div>

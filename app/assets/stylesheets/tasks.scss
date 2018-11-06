@@ -1,0 +1,109 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 3px 3px 6px rgba(10, 10, 10, 0.5);
+  margin: 50px;
+  width: 25vh;
+  height: 25vh;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid red;
+}
+.complete{
+  border: 3px solid blue;
+}
+#update-button{
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  margin-bottom: 18px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}.card i {
+  font-size: 35px;
+  position: absolute;
+  top: 25px;
+  right: 30px;
+
+}
+.fix-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_alone{
+  width: 500px;
+  height:500px;
+  border-radius: 20px;
+  box-shadow:0 0 20px rgba(0, 0, 0, 0.8);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-card{
+  background-color: white;
+  width: 500px;
+  height: 350px;
+  border-radius: 20px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+.form-card i{
+  position:absolute;
+  font-size: 25px;
+  top: 25px;
+  right: 30px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
