@@ -1,3 +1,4 @@
+require 'faker'
 
 puts 'Creating 100 fake tasks...'
 100.times do
